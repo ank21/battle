@@ -19,9 +19,7 @@
 -- Table structure for table `battles`
 --
 
-DROP TABLE IF EXISTS `battles`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `battles` (
   `name` varchar(52) DEFAULT NULL,
   `year` int(3) DEFAULT NULL,
